@@ -1,0 +1,38 @@
+.mainContainer{
+    width: 100%;
+    background: #eee;
+    padding: 10px 5px;
+    border-top: 2px solid #eee;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    bottom: 0;
+    position: sticky
+}
+
+.inputField{
+    width: 95%;
+    margin-left: 20px;
+    flex: 1;
+    border-radius: 40px;
+    border: 1px solid;
+    padding: 15px;
+    font-size: 20px;
+
+    &:focus{
+        outline: none;
+    }
+    
+}
+
+.icons{
+    color: rgb(114, 42, 165);
+    // margin-left: 10px;
+    cursor: pointer;
+}
+
+.form{
+    flex: 1
+}

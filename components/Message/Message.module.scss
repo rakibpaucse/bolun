@@ -1,0 +1,32 @@
+.sender{
+margin-left: auto;
+// background: #dcf8c6;
+background: #c6f8e3;
+align-self: flex-end;
+}
+
+.reciver{
+text-align: left;
+background: whitesmoke
+}
+
+.messageElem{
+    width: fit-content;
+    padding: 0px 15px;
+    border-radius: 8px;
+    margin: 10px;
+    min-width: 60px;
+    position: relative;
+    max-width: 80%;
+    text-align: justify;
+    // text-align: right;
+    // line-height: 0;
+}
+
+.time{
+    color: #827d7d;
+    font-size: 12px;
+    float: right;
+    margin-left: 15px;
+    margin-top: 4px
+}

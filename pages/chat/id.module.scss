@@ -1,0 +1,19 @@
+.mainChatContainer{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    padding: 3.125rem 15.625rem;
+}
+
+.chatContainer{
+    flex: 1;
+    overflow: scroll;
+    height: 90vh;
+
+    ::-webkit-scrollbar{
+        display: none
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width : none
+
+}

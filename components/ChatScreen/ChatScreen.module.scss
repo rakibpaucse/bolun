@@ -1,0 +1,63 @@
+.header{
+    background: #0d5d60;
+    padding: 15px 25px !important;
+    height: 106px;   
+    
+    top: 0;
+    position: sticky
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.title{
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 0;
+    color: white;
+    
+}
+
+.lastSeen {
+    font-size: 12px;
+    color: whitesmoke;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.iconsHolder{
+    display:flex; 
+    align-items:center;
+    height: 100%;
+    margin-top: 20px
+}
+
+.icons{
+    color: white
+}
+
+.showMessageContainer{
+    padding: 15px;
+    // background: #e5ded8;
+    background-color: #e5ded8;
+background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+    min-height: calc(71vh + 6px);
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: -1;
+    overflow-y: scroll;
+
+    ::-webkit-scrollbar{
+        display: none
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width : none
+
+}
